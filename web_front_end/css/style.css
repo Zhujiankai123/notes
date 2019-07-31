@@ -1,0 +1,38 @@
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+  margin:0 auto;
+  padding:0 auto;
+}
+
+p {
+  color: red;
+}
+
+span {
+	background-color:blue;
+}
+
+@media (min-width: 801px) {
+  body {
+    background-color: green;
+  }
+  h1 {
+  color: white;
+  background-color: green;
+  border: 1px solid black;
+  text-align:center;
+}
+
+p {
+  color: white;
+  text-align:center
+}
+
+span {
+	background-color:white;
+	text-align:center;
+	display:block;
+
+}
